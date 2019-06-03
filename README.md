@@ -18,6 +18,8 @@ The samples in the Citation Context data set have been formatted as follows:
 - NCONT - Text outside of the citation context.
 - OTHER - Other characters.
 
+ContextVizualizer.py can be used to display the tagged citation context in an easy-to-read format. Citation context is displayed in greem, non-context in red, and the target citation in blue.
+
 The samples in the Citation Sentiment data set have been formatted as follows:
 
 *p  This is a citation carrying positive sentiment .*
