@@ -1,2 +1,28 @@
 # Scientific-Citation-Context-Extraction-and-Sentiment-Analysis
 This repository contains labeled data sets for Scientific Citation Context Extraction and Sentiment Analysis.
+
+The text used for labeling has been tokenized and certain text has been replaced with the following tokens:
+
+- `<MATH>`       - Mathematics.
+- `<TABLE>`      - Table.
+- `<REMARK>`     - Remark.
+- `<THEOREM>`    - Theorem.
+- `<TARGET_CIT>` - Target citation.
+
+The samples in the Citation Context data set have been formatted as follows:
+
+*This###CONT is###CONT a###CONT sample###CONT citation###CIT .###OTHER This###NCONT is###NCONT a###NCONT sentence###NCONT outside###NCONT of###NCONT the###NCONT citation###NCONT context###NCONT .###OTHER*
+
+- CONT  - Citation context.
+- CIT   - Target citation.
+- NCONT - Text outside of the citation context.
+- OTHER - Other characters.
+
+The samples in the Citation Sentiment data set have been formatted as follows:
+
+*p  This is a citation carrying positive sentiment .*
+
+The citation sentiment is classified into:
+- o - Neutral
+- p - Positive
+- n - Negative
